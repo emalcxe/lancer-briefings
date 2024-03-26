@@ -5,10 +5,10 @@
 /*-------------------------------------*/
 
 //Primary Colors
-$primary: rgba(125, 187, 187, 1);
-$secondary: rgba(23, 29, 30, 0.8);
-$highlight-hover: rgba(255, 255, 255, 0.3);
-$highlight-active: rgba(255, 255, 255, 0.1);
+$primary: rgba(199, 101, 3, 1);
+$secondary: rgba(19, 20, 19, 0.8);
+$highlight-hover: rgba(149, 204, 46, 0.3);
+$highlight-active: rgba(125, 255, 255, 0.1);
 
 //Primary Text
 $text-headers: rgba(0, 0, 0, 1);
@@ -93,6 +93,8 @@ $text-markdown-h2: rgba(255, 255, 255, 0.87);
 
 body {
   overflow: hidden !important;
+  height: 100vh;
+  width: 100wh;
 }
 
 header {

@@ -7,19 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lancer.kuenaimaku.com/">
-  <meta property="og:title" content="MSMC Mission Briefing">
-  <meta property="og:description" content="MIRRORSMOKE MERCENARY COMPANY | MISSION BRIEFING">
+  <meta property="og:title" content="SRT Mission Briefing">
+  <meta property="og:description" content="Hell's Gate Militia SRT">
   <meta property="og:image" content="/icons/company-icon.svg">
-  <title>MSMC | MISSION BRIEFING</title>
+  <title>Militia SRT | MISSION BRIEFING</title>
 </head>
 
 <body style="margin:0px;">
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
-  <script>
-    VANTA.WAVES({
+  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.net.min.js"></script>
+</body>
+<script>
+    VANTA.NET({
       el: "body",
       mouseControls: true,
       touchControls: true,
@@ -28,13 +29,12 @@
       minWidth: 200.00,
       scale: 1.00,
       scaleMobile: 1.00,
-      color: 0x182325,
-      shininess: 10.00,
-      waveHeight: 40.00,
-      waveSpeed: 0.10,
-      zoom: 0.65
-    })
+      color: 0x3c4323,
+      backgroundColor: 0x191919,
+      points: 11.00,
+      maxDistance: 22.00,
+      spacing: 13.00    })
   </script>
-</body>
+
 
 </html>
